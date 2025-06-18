@@ -34,19 +34,19 @@ const CodeBlock = ({ position = [0, 0, 0], rotation = [0, 0, 0], scale = 1 }) =>
           fontSize={0.5}
           font="/fonts/JetBrainsMono-Bold.woff"
         >
-          const Portfolio = () => {'{'}
-        </Text>
-        
-        <Text
-          color="#8a56e0"
-          anchorX="left"
-          anchorY="middle"
-          position={[-1.4, 0.1, 0]}
-          fontSize={0.5}
-          font="/fonts/JetBrainsMono-Regular.woff"
-        >
-          return (
-        </Text>
+        const Portfolio = () =&gt; {'{'}
+      </Text>
+
+      <Text
+        color="#8a56e0"
+        anchorX="left"
+        anchorY="middle"
+        position={[-1.4, -0.5, 0]}
+        fontSize={0.5}
+        font="/fonts/JetBrainsMono-Regular.woff"
+      >
+        return (
+      </Text>
         
         <Text
           color="#27c93f"
